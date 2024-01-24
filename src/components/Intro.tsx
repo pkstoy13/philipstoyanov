@@ -1,4 +1,4 @@
-export default function Intro() {
+export function Intro() {
   return (
     <div className="flex flex-col-reverse md:flex-row md:justify-evenly items-center">
       <div className="">

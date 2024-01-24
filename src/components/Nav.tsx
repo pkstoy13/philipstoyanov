@@ -1,4 +1,4 @@
-export default function Nav() {
+export function Nav() {
   return (
     <div>
       <div className="flex justify-end space-x-3 pr-4 bg-gray-800 text-red-200">

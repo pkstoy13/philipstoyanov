@@ -1,15 +1,15 @@
-import Nav from "./components/Nav";
-import Intro from "./components/Intro";
+import { Nav, Intro, Education, Projects } from "./components";
+//import { Education } from "components/Education";
 
-function App() {
+export function App() {
   return (
     <>
       <div className=" bg-gradient-to-tr h-screen from-indigo-700 to-red-200">
         <Nav />
         <Intro />
+        <Education />
+        <Projects />
       </div>
     </>
   );
 }
-
-export default App;
