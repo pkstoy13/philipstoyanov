@@ -14,11 +14,17 @@
   }
 }
 
-@layer utilities {
+@layer components {
   .section-block {
-    @apply flex flex-col items-center mt-8 border-b-2 border-x-2 border-black mx-20;
+    @apply mt-8 border-b-2 border-x-2 border-black mx-20;
   }
   .header {
     @apply border-b-2 border-black;
+  }
+}
+
+@layer utilities {
+  .flex-col-center {
+    @apply flex flex-col items-center;
   }
 }
