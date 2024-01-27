@@ -1,6 +1,8 @@
+import picture from "../assets/cropped-profile.png";
+
 export function Intro() {
   return (
-    <div className="flex flex-col-reverse md:flex-row md:justify-evenly items-center">
+    <div className="mt-8 mx-20 flex flex-col-reverse lg:flex-row md:justify-evenly items-center">
       <div className="">
         <h1 className="text-3xl">Hi! I'm Phil</h1>
         <p>
@@ -12,7 +14,7 @@ export function Intro() {
         <a></a>
       </div>
       <div className="">
-        <img src="../assets/placeholder.png" alt="Picture" />
+        <img className="rounded-full size-72" src={picture} alt="Picture" />
       </div>
     </div>
   );

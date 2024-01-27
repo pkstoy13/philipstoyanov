@@ -3,16 +3,17 @@ export function Skills() {
     <div className="section-block ">
       <h1 className="header ">Skills</h1>
       <h2>Programming Languages</h2>
-      <div className="flex justify-center space-x-4 mb-2">
-        <p>JavaScript</p>
-        <p>TypeScript</p>
-        <p>Python</p>
-        <p>C</p>
-        <p>C++</p>
-        <p>Java</p>
-      </div>
+
+      <ul className="list-element">
+        <li>JavaScript</li>
+        <li>TypeScript</li>
+        <li>Python</li>
+        <li>C</li>
+        <li>C++</li>
+        <li>Java</li>
+      </ul>
       <h2>Web Development</h2>
-      <ul className="flex flex-wrap space-x-4 mb-2">
+      <ul className="list-element">
         <li>React</li>
         <li>Next.js</li>
         <li>Vite</li>
@@ -23,11 +24,11 @@ export function Skills() {
         <li>Material UI</li>
       </ul>
       <h2>Version Control</h2>
-      <div className="flex justify-center space-x-4 mb-2">
-        <p>Git</p>
-        <p>GitHub</p>
-        <p>GitLab</p>
-      </div>
+      <ul className="list-element">
+        <li>Git</li>
+        <li>GitHub</li>
+        <li>GitLab</li>
+      </ul>
     </div>
   );
 }
