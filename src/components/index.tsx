@@ -4,3 +4,4 @@ export * from "./Intro";
 export * from "./Education";
 export * from "./Projects";
 export * from "./Skills";
+export * from "./Contact";

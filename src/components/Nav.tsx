@@ -32,8 +32,8 @@ export function Nav() {
   return (
     <>
       <div>
-        <div className="flex justify-center   text-red-200  ">
-          <span className="bg-gray-800 space-x-3 px-4 rounded-b-2xl relative">
+        <div className="flex justify-center   text-indigo-200  ">
+          <span className="bg-gray-800 space-x-3 px-4 rounded-b-2xl fixed">
             <button className="hover:animate-pulse">Overview</button>
             <button className="hover:animate-pulse">Education</button>
             <button className="hover:animate-pulse">Projects</button>

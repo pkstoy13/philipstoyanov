@@ -1,8 +1,8 @@
-import reactLogo from "../assets/react logo.png";
-import tailwindLogo from "../assets/Tailwind_CSS_Logo.svg.png";
-import viteLogo from "../assets/vite-logo.png";
-import netlifyLogo from "../assets/netlify-icon.png";
-import jsLogo from "../assets/js-logo.png";
+import reactLogo from "../assets/react-2.svg";
+import tailwindLogo from "../assets/tailwind-css-2.svg";
+import viteLogo from "../assets/vitejs.svg";
+import netlifyLogo from "../assets/netlify.svg";
+import jsLogo from "../assets/logo-javascript.svg";
 
 export function Projects() {
   return (
@@ -13,8 +13,10 @@ export function Projects() {
           <h2>
             Time Titan{" "}
             <a
-              className="text-lg bg-indigo-500 rounded-lg"
+              className="link-grade"
               href="https://time-titan.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               🔗
             </a>
@@ -28,32 +30,54 @@ export function Projects() {
             coding system as well to help users sort out the functions of their
             timers
             <br />
-            <p className="ml-8  items-center flex space-x-3">
-              Utilizations:{" "}
-              <a href="https://react.dev">
-                <img className="" src={reactLogo} alt="React logo" />{" "}
+            Utilizations:{" "}
+            <div className="ml-8  items-center scale-[.25] flex space-x-3">
+              <a
+                href="https://react.dev "
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={reactLogo} alt="React logo" />{" "}
               </a>
-              <a href="https://javascript.info/">
-                <img src={jsLogo} className="" alt="JS logo" />{" "}
+              <a
+                href="https://javascript.info/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={jsLogo} alt="JS logo" />{" "}
               </a>
-              <a href="https://tailwindcss.com">
-                <img className="" src={tailwindLogo} alt="Tailwind logo" />
+              <a
+                href="https://tailwindcss.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={tailwindLogo} alt="Tailwind logo" />
               </a>
-              <a href="https://vitejs.dev/guide">
-                <img className="" src={viteLogo} alt="Vite logo" />{" "}
+              <a
+                href="https://vitejs.dev/guide"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={viteLogo} alt="Vite logo" />{" "}
               </a>
-              <a href="https://www.netlify.com/for/web-applications/">
-                <img className="" src={netlifyLogo} alt="Netlify logo" />{" "}
+              <a
+                href="https://www.netlify.com/for/web-applications/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={netlifyLogo} alt="Netlify logo" />{" "}
               </a>
-            </p>
+            </div>
           </p>
         </>
         <>
           <h2>
             Photo Collection{" "}
             <a
-              className="text-lg bg-indigo-500 rounded-lg"
+              className="link-grade"
               href="https://affinity-collection.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               🔗
             </a>
@@ -61,7 +85,8 @@ export function Projects() {
 
           <p className="mx-4">
             React Application designed for users to add photos or images in a
-            grid format and create image/photo albums
+            grid format and create image/photo albums. Useful for creating
+            moodboards and organizing vibes.
             <br />
             <p className="ml-8  items-center flex  space-x-3">
               Utilizations:{" "}
@@ -84,15 +109,37 @@ export function Projects() {
           </p>
         </>
         <>
-          <h2>Portfolio</h2>
+          <h2>
+            Portfolio{" "}
+            <a
+              className="link-grade"
+              href="https://portfolio-psx.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              🔗
+            </a>
+          </h2>
           <p className="mx-4">
             You're looking at it right here. Single Page Application to show
             potential employers what I have done and tell them a little bit
-            about me.
+            about me. I spent a lot of time figuring out ideal styling and
+            learning how to make a site look aesthetically pleasing. Went
+            through many stages of designing.
           </p>
         </>
         <>
-          <h2>Effortless Attire (Academic)</h2>
+          <h2>
+            Effortless Attire (Academic){" "}
+            <a
+              className="link-grade"
+              href="https://doomsuccs.github.io/Team-1/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              🔗
+            </a>
+          </h2>
           <p className="mx-4">
             Webpage built during my Intro to Software Engineering course. Acts a
             functioning clothing store for a made up brand that sells University

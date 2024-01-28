@@ -16,7 +16,7 @@
 
 @layer components {
   .section-block {
-    @apply mt-8 border-b-2 border-x-2 border-black mx-20;
+    @apply mt-8 border-b-2 border-x-2 lg:mx-40 border-black mx-20;
   }
   .header {
     @apply border-b-2 border-black;
@@ -29,5 +29,8 @@
   }
   .list-element {
     @apply flex flex-wrap space-x-4 mb-2 mx-4;
+  }
+  .link-grade {
+    @apply text-lg  bg-gradient-to-br from-indigo-500 via-gray-700 to-red-400 rounded-lg;
   }
 }
