@@ -1,8 +1,12 @@
 import reactLogo from "../assets/react-2.svg";
 import tailwindLogo from "../assets/tailwind-css-2.svg";
+import cssLogo from "../assets/css-3.svg";
 import viteLogo from "../assets/vitejs.svg";
+import craLogo from "../assets/create-react-app.svg";
 import netlifyLogo from "../assets/netlify.svg";
 import jsLogo from "../assets/logo-javascript.svg";
+import tsLogo from "../assets/typescript.svg";
+import vercelLogo from "../assets/vercel.svg";
 
 export function Projects() {
   return (
@@ -30,8 +34,8 @@ export function Projects() {
             coding system as well to help users sort out the functions of their
             timers
             <br />
-            Utilizations:{" "}
-            <div className="ml-8  items-center scale-[.25] flex space-x-3">
+            Created With:{" "}
+            <div className="ml-8  items-center w-40 flex space-x-3">
               <a
                 href="https://react.dev "
                 target="_blank"
@@ -88,24 +92,44 @@ export function Projects() {
             grid format and create image/photo albums. Useful for creating
             moodboards and organizing vibes.
             <br />
-            <p className="ml-8  items-center flex  space-x-3">
-              Utilizations:{" "}
-              <a href="https://react.dev">
-                <img className="" src={reactLogo} alt="React logo" />{" "}
+            Created With:{" "}
+            <div className="ml-8  items-center w-40 flex space-x-3">
+              <a
+                href="https://react.dev "
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={reactLogo} alt="React logo" />{" "}
               </a>
-              <a href="https://javascript.info/">
-                <img src={jsLogo} className="" alt="JS logo" />{" "}
+              <a
+                href="https://javascript.info/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={jsLogo} alt="JS logo" />{" "}
               </a>
-              <a href="https://tailwindcss.com">
-                <img className="" src={tailwindLogo} alt="Tailwind logo" />
+              <a
+                href="https://tailwindcss.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={tailwindLogo} alt="Tailwind logo" />
               </a>
-              <a href="https://vitejs.dev/guide">
-                <img className="" src={viteLogo} alt="Vite logo" />{" "}
+              <a
+                href="https://vitejs.dev/guide"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={viteLogo} alt="Vite logo" />{" "}
               </a>
-              <a href="https://www.netlify.com/for/web-applications/">
-                <img className="" src={netlifyLogo} alt="Netlify logo" />{" "}
+              <a
+                href="https://www.netlify.com/for/web-applications/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={netlifyLogo} alt="Netlify logo" />{" "}
               </a>
-            </p>
+            </div>
           </p>
         </>
         <>
@@ -126,6 +150,45 @@ export function Projects() {
             about me. I spent a lot of time figuring out ideal styling and
             learning how to make a site look aesthetically pleasing. Went
             through many stages of designing.
+            <br />
+            Created With:{" "}
+            <div className="ml-8  items-center w-40 flex space-x-3">
+              <a
+                href="https://react.dev "
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={reactLogo} alt="React logo" />{" "}
+              </a>
+              <a
+                href="https://www.typescriptlang.org/docs/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={tsLogo} alt="TS logo" />{" "}
+              </a>
+              <a
+                href="https://tailwindcss.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={tailwindLogo} alt="Tailwind logo" />
+              </a>
+              <a
+                href="https://vitejs.dev/guide"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={viteLogo} alt="Vite logo" />{" "}
+              </a>
+              <a
+                href="https://vercel.com/docs"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={vercelLogo} alt="Vercel logo" />{" "}
+              </a>
+            </div>
           </p>
         </>
         <>
@@ -145,6 +208,45 @@ export function Projects() {
             functioning clothing store for a made up brand that sells University
             of Delaware apparel. Worked in a team of 4 people, with most of my
             time dedicated to completing the testing.
+            <br />
+            Created With:{" "}
+            <div className="ml-8  items-center w-40 flex space-x-3">
+              <a
+                href="https://react.dev "
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={reactLogo} alt="React logo" />{" "}
+              </a>
+              <a
+                href="https://www.typescriptlang.org/docs/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={tsLogo} alt="TS logo" />{" "}
+              </a>
+              <a
+                href="https://devdocs.io/css/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={cssLogo} alt="CSS logo" />
+              </a>
+              <a
+                href="https://create-react-app.dev/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={craLogo} alt="CRA logo" />{" "}
+              </a>
+              <a
+                href="https://vercel.com/docs"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={vercelLogo} alt="Vercel logo" />{" "}
+              </a>
+            </div>
           </p>
         </>
         <h2>Shell Project (Academic)</h2>

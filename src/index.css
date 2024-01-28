@@ -16,10 +16,10 @@
 
 @layer components {
   .section-block {
-    @apply mt-8 border-b-2 border-x-2 lg:mx-40 border-black mx-20;
+    @apply mt-8 border-b-2 border-x-2 xl:mx-80 lg:mx-60 border-black mx-20;
   }
   .header {
-    @apply border-b-2 border-black;
+    @apply border-b-2 border-black pl-1;
   }
 }
 
