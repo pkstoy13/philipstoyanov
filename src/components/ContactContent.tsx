@@ -5,27 +5,35 @@ import Row from "react-bootstrap/Row";
 
 export function ContactContent() {
   return (
-    <Form className="bg-indigo-500">
+    <Form className="bg-primary text-black">
       <Form.Group
         className="mb-3  flex items-center justify-around "
         controlId="exampleForm.ControlInput1"
       >
-        <Form.Label>Email address</Form.Label>
         <Form.Control
           type="email"
-          className="w-80 rounded-md bg-gray-200 mt-3"
-          placeholder="name@example.com"
+          className="w-80 rounded-md bg-sandal-100 mt-3 p-2"
+          placeholder="Enter Email"
+        />
+      </Form.Group>
+      <Form.Group
+        className="mb-3 flex items-center justify-around "
+        controlId="exampleForm.ControlInput1"
+      >
+        <Form.Control
+          type="name"
+          className="w-80 rounded-md p-2 bg-sandal-100 "
+          placeholder="Enter Name"
         />
       </Form.Group>
       <Form.Group
         className="mb-3  flex items-center justify-around"
         controlId="exampleForm.ControlTextarea1"
       >
-        <Form.Label>Message</Form.Label>
         <Form.Control
           as="textarea"
           rows={6}
-          className="w-80 rounded-xl bg-gray-200"
+          className="w-80 rounded-xl p-2 bg-sandal-100"
           placeholder="Enter Message"
         />
       </Form.Group>

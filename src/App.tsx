@@ -4,7 +4,7 @@ import { Nav, Intro, Education, Projects, Skills, Contact } from "./components";
 export function App() {
   return (
     <>
-      <div className=" bg-gradient-to-tr h-full min-h-screen from-indigo-500 to-red-300">
+      <div className=" bg-background h-full min-h-screen  text-text ">
         <Nav />
         <Intro />
         <Education />

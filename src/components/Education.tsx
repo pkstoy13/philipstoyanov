@@ -1,9 +1,9 @@
 export function Education() {
   return (
     <>
-      <div className="section-block">
+      <div className="section-block ">
         <h1 className="header ">Education</h1>
-        <div className="ml-1 mr-2">
+        <div className="pl-1 pr-2 bg-secondary">
           <div className="flex justify-between ">
             <p>University of Delaware </p>
             <p>2021-2025</p>
