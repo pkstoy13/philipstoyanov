@@ -1,4 +1,4 @@
-import picture from "../assets/cropped-profile.png";
+import picture from "../assets/profile-pic.svg";
 import linkedin from "../assets/linkedin-icon-2.svg";
 import github from "../assets/github-icon-1.svg";
 
