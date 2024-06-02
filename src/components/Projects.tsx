@@ -10,10 +10,62 @@ import vercelLogo from "../assets/vercel.svg";
 import bashLogo from "../assets/bash-1.svg";
 import cLogo from "../assets/c-1.svg";
 import vimLogo from "../assets/vim.svg";
+import ttLogo from "../assets/time titan ss.png";
+import eaLogo from "../assets/effortless attire ss.png";
 
 export function Projects() {
   return (
     <>
+      <div className="flex mx-10 items-center space-x-10">
+        <div className="w-1/3 card bg-indigo-600 lg:card-side bg-base-100 shadow-xl">
+          <figure>
+            <img src={ttLogo} alt="Album" />
+          </figure>
+          <div className="card-body">
+            <div className="card-title text-3xl">Time Titan</div>
+            <p>
+              React Application that allows the user to set timers and keep
+              track of how long they work on tasks. Utilizes state and other
+              React Hooks to correctly keep track of time. Comes with Report
+              Page and Sign in so that users can come back and see their
+              previous times. Has color coding system as well to help users sort
+              out the functions of their timers
+            </p>
+          </div>
+        </div>
+        <div className="w-1/3 card bg-indigo-600 lg:card-side bg-base-100 shadow-xl">
+          <figure>
+            <img src="" alt="Album" />
+          </figure>
+          <div className="card-body">
+            <div className="card-title text-3xl">Bash Shell</div>
+            <p>
+              Custom Shell Project created for Operating Systems Course. Was
+              broken down into paheses during the course, with the first phase
+              focusing on getting the shell running, creating the built-in
+              commands for it, and allowing arguments to be passed into the
+              shell. The 2nd phase was focused on more advanced features, such
+              as giving the shell the ability to run scripts, and creating an
+              accumulater function and environment variables.
+            </p>
+          </div>
+        </div>
+        <div className="w-1/3 card bg-indigo-600 lg:card-side bg-base-100 shadow-xl">
+          <figure>
+            <img src={eaLogo} alt="Album" />
+          </figure>
+          <div className="card-body">
+            <div className="card-title text-3xl">Effortless Attire</div>
+            <p>
+              Webpage built during my Intro to Software Engineering course. Acts
+              a functioning clothing store for a made up brand that sells
+              University of Delaware apparel. Worked in a team of 4 people, with
+              most of my time dedicated to completing the testing.
+            </p>
+          </div>
+        </div>
+      </div>
+
       <div className="section-block">
         <h1 className="header">Projects</h1>
         <div className="bg-primary">
@@ -78,6 +130,7 @@ export function Projects() {
               </div>
             </p>
           </>
+
           <>
             <h2>
               Photo Collection{" "}
