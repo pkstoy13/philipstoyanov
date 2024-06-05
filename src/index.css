@@ -24,6 +24,9 @@
   .grade {
     @apply bg-gradient-to-t from-silver-rust-100 to-sandal-100;
   }
+  .project {
+    @apply w-[30%]  p-2 rounded-lg  bg-indigo-600  shadow-xl hover:shadow-xl hover:shadow-indigo-500 duration-500 hover:ease-in;
+  }
 }
 
 @layer utilities {

@@ -1,4 +1,4 @@
-import reactLogo from "../assets/react-2.svg";
+/*import reactLogo from "../assets/react-2.svg";
 import tailwindLogo from "../assets/tailwind-css-2.svg";
 import cssLogo from "../assets/css-3.svg";
 import viteLogo from "../assets/vitejs.svg";
@@ -9,21 +9,25 @@ import tsLogo from "../assets/typescript.svg";
 import vercelLogo from "../assets/vercel.svg";
 import bashLogo from "../assets/bash-1.svg";
 import cLogo from "../assets/c-1.svg";
-import vimLogo from "../assets/vim.svg";
+import vimLogo from "../assets/vim.svg";*/
 import ttLogo from "../assets/time titan ss.png";
 import eaLogo from "../assets/effortless attire ss.png";
+import bsLogo from "../assets/matrix shell.png";
+import pxLogo from "../assets/portfolio ss.png";
+import icLogo from "../assets/Photo Collection ss.png";
 
 export function Projects() {
   return (
     <>
-      <div className="flex mx-10 items-center space-x-10">
-        <div className="w-1/3 card bg-indigo-600 lg:card-side bg-base-100 shadow-xl">
+      <div className="flex flex-wrap mx-10 justify-center items-center space-x-10">
+        <h1 className="border-white border-b-2 mb-2 w-full mx-8">Projects</h1>
+        <div className="project card lg:card-side bg-base-100">
           <figure>
             <img src={ttLogo} alt="Album" />
           </figure>
           <div className="card-body">
             <div className="card-title text-3xl">Time Titan</div>
-            <p>
+            <p className="hidden md:block">
               React Application that allows the user to set timers and keep
               track of how long they work on tasks. Utilizes state and other
               React Hooks to correctly keep track of time. Comes with Report
@@ -33,15 +37,15 @@ export function Projects() {
             </p>
           </div>
         </div>
-        <div className="w-1/3 card bg-indigo-600 lg:card-side bg-base-100 shadow-xl">
+        <div className="project card lg:card-side bg-base-100">
           <figure>
-            <img src="" alt="Album" />
+            <img className="h-auto" src={bsLogo} alt="Album" />
           </figure>
           <div className="card-body">
-            <div className="card-title text-3xl">Bash Shell</div>
-            <p>
+            <div className="card-title text-3xl">Matrix Shell</div>
+            <p className="hidden md:block">
               Custom Shell Project created for Operating Systems Course. Was
-              broken down into paheses during the course, with the first phase
+              broken down into phases during the course, with the first phase
               focusing on getting the shell running, creating the built-in
               commands for it, and allowing arguments to be passed into the
               shell. The 2nd phase was focused on more advanced features, such
@@ -50,13 +54,13 @@ export function Projects() {
             </p>
           </div>
         </div>
-        <div className="w-1/3 card bg-indigo-600 lg:card-side bg-base-100 shadow-xl">
+        <div className="project card lg:card-side bg-base-100">
           <figure>
             <img src={eaLogo} alt="Album" />
           </figure>
           <div className="card-body">
             <div className="card-title text-3xl">Effortless Attire</div>
-            <p>
+            <p className="hidden md:block">
               Webpage built during my Intro to Software Engineering course. Acts
               a functioning clothing store for a made up brand that sells
               University of Delaware apparel. Worked in a team of 4 people, with
@@ -64,302 +68,331 @@ export function Projects() {
             </p>
           </div>
         </div>
-      </div>
-
-      <div className="section-block">
-        <h1 className="header">Projects</h1>
-        <div className="bg-primary">
-          <>
-            <h2>
-              Time Titan{" "}
-              <a
-                className="link-grade"
-                href="https://time-titan.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                🔗
-              </a>
-            </h2>
-
-            <p className="mx-4">
-              React Application that allows the user to set timers and keep
-              track of how long they work on tasks. Utilizes state and other
-              React Hooks to correctly keep track of time. Comes with Report
-              Page and Sign in so that users can come back and see their
-              previous times. Has color coding system as well to help users sort
-              out the functions of their timers
-              <br />
-              Created With:{" "}
-              <div className="ml-8  items-center w-40 flex space-x-3">
-                <a
-                  href="https://react.dev "
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={reactLogo} alt="React logo" />{" "}
-                </a>
-                <a
-                  href="https://javascript.info/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={jsLogo} alt="JS logo" />{" "}
-                </a>
-                <a
-                  href="https://tailwindcss.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={tailwindLogo} alt="Tailwind logo" />
-                </a>
-                <a
-                  href="https://vitejs.dev/guide"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={viteLogo} alt="Vite logo" />{" "}
-                </a>
-                <a
-                  href="https://www.netlify.com/for/web-applications/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={netlifyLogo} alt="Netlify logo" />{" "}
-                </a>
-              </div>
-            </p>
-          </>
-
-          <>
-            <h2>
-              Photo Collection{" "}
-              <a
-                className="link-grade"
-                href="https://affinity-collection.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                🔗
-              </a>
-            </h2>
-
-            <p className="mx-4">
-              React Application designed for users to add photos or images in a
-              grid format and create image/photo albums. Useful for creating
-              moodboards and organizing vibes.
-              <br />
-              Created With:{" "}
-              <div className="ml-8  items-center w-40 flex space-x-3">
-                <a
-                  href="https://react.dev "
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={reactLogo} alt="React logo" />{" "}
-                </a>
-                <a
-                  href="https://javascript.info/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={jsLogo} alt="JS logo" />{" "}
-                </a>
-                <a
-                  href="https://tailwindcss.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={tailwindLogo} alt="Tailwind logo" />
-                </a>
-                <a
-                  href="https://vitejs.dev/guide"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={viteLogo} alt="Vite logo" />{" "}
-                </a>
-                <a
-                  href="https://www.netlify.com/for/web-applications/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={netlifyLogo} alt="Netlify logo" />{" "}
-                </a>
-              </div>
-            </p>
-          </>
-          <>
-            <h2>
-              Portfolio{" "}
-              <a
-                className="link-grade"
-                href="https://portfolio-psx.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                🔗
-              </a>
-            </h2>
-            <p className="mx-4">
+        <div className="project card lg:card-side bg-base-100 mt-8">
+          <figure>
+            <img src={pxLogo} alt="Album" />
+          </figure>
+          <div className="card-body">
+            <div className="card-title text-3xl">Portfolio X</div>
+            <p className="hidden md:block">
               You're looking at it right here. Single Page Application to show
               potential employers what I have done and tell them a little bit
               about me. I spent a lot of time figuring out ideal styling and
               learning how to make a site look aesthetically pleasing. Went
               through many stages of designing.
-              <br />
-              Created With:{" "}
-              <div className="ml-8  items-center w-40 flex space-x-3">
-                <a
-                  href="https://react.dev "
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={reactLogo} alt="React logo" />{" "}
-                </a>
-                <a
-                  href="https://www.typescriptlang.org/docs/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={tsLogo} alt="TS logo" />{" "}
-                </a>
-                <a
-                  href="https://tailwindcss.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={tailwindLogo} alt="Tailwind logo" />
-                </a>
-                <a
-                  href="https://vitejs.dev/guide"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={viteLogo} alt="Vite logo" />{" "}
-                </a>
-                <a
-                  href="https://vercel.com/docs"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={vercelLogo} alt="Vercel logo" />{" "}
-                </a>
-              </div>
             </p>
-          </>
-          <>
-            <h2>
-              Effortless Attire (Academic){" "}
-              <a
-                className="link-grade"
-                href="https://doomsuccs.github.io/Team-1/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                🔗
-              </a>
-            </h2>
-            <p className="mx-4">
-              Webpage built during my Intro to Software Engineering course. Acts
-              a functioning clothing store for a made up brand that sells
-              University of Delaware apparel. Worked in a team of 4 people, with
-              most of my time dedicated to completing the testing.
-              <br />
-              Created With:{" "}
-              <div className="ml-8  items-center w-40 flex space-x-3">
-                <a
-                  href="https://react.dev "
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={reactLogo} alt="React logo" />{" "}
-                </a>
-                <a
-                  href="https://www.typescriptlang.org/docs/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={tsLogo} alt="TS logo" />{" "}
-                </a>
-                <a
-                  href="https://devdocs.io/css/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={cssLogo} alt="CSS logo" />
-                </a>
-                <a
-                  href="https://create-react-app.dev/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={craLogo} alt="CRA logo" />{" "}
-                </a>
-                <a
-                  href="https://vercel.com/docs"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="invisible"
-                >
-                  <img src={vercelLogo} alt="Vercel logo" />{" "}
-                </a>
-              </div>
+          </div>
+        </div>
+        <div className="project card lg:card-side bg-base-100 mt-8">
+          <figure>
+            <img src={icLogo} alt="Album" />
+          </figure>
+          <div className="card-body">
+            <div className="card-title text-3xl">Image Collection</div>
+            <p className="hidden md:block">
+              React Application designed for users to add photos or images in a
+              grid format and create image/photo albums. Useful for creating
+              moodboards and organizing vibes. Currently unfinished.
             </p>
-          </>
-          <h2>Shell Project (Academic)</h2>
-          <p className="mx-4">
-            Custom Shell Project created for Operating Systems Course. Was
-            broken down into paheses during the course, with the first phase
-            focusing on getting the shell running, creating the built-in
-            commands for it, and allowing arguments to be passed into the shell.
-            The 2nd phase was focused on more advanced features, such as giving
-            the shell the ability to run scripts, and creating an accumulater
-            function and environment variables.
-            <br />
-            Created With:{" "}
-            <div className="ml-8  items-center w-40 flex space-x-3">
-              <a
-                href="https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={cLogo} alt="C logo" />{" "}
-              </a>
-              <a
-                href="https://www.gnu.org/software/bash/manual/bash.html"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={bashLogo} alt="Bash logo" />{" "}
-              </a>
-              <a
-                href="https://www.vim.org/docs.php"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={vimLogo} alt="Vim logo" />
-              </a>
-              <a
-                href="https://vercel.com/docs"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="invisible"
-              >
-                <img src={vercelLogo} alt="Vercel logo" />{" "}
-              </a>
-              <a
-                href="https://vercel.com/docs"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="invisible"
-              >
-                <img src={vercelLogo} alt="Vercel logo" />{" "}
-              </a>
-            </div>
-          </p>
+          </div>
         </div>
       </div>
+      {/*
+      <div className="section-block">
+      <h1 className="header">Projects</h1>
+      <div className="bg-primary">
+      <>
+      <h2>
+      Time Titan{" "}
+      <a
+      className="link-grade"
+      href="https://time-titan.netlify.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >
+      🔗
+      </a>
+      </h2>
+      
+      <p className="mx-4">
+      React Application that allows the user to set timers and keep
+      track of how long they work on tasks. Utilizes state and other
+      React Hooks to correctly keep track of time. Comes with Report
+      Page and Sign in so that users can come back and see their
+      previous times. Has color coding system as well to help users sort
+      out the functions of their timers
+      <br />
+      Created With:{" "}
+      <div className="ml-8  items-center w-40 flex space-x-3">
+      <a
+      href="https://react.dev "
+      target="_blank"
+      rel="noopener noreferrer"
+      >
+      <img src={reactLogo} alt="React logo" />{" "}
+      </a>
+      <a
+      href="https://javascript.info/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >
+      <img src={jsLogo} alt="JS logo" />{" "}
+      </a>
+      <a
+      href="https://tailwindcss.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      >
+      <img src={tailwindLogo} alt="Tailwind logo" />
+      </a>
+      <a
+      href="https://vitejs.dev/guide"
+      target="_blank"
+      rel="noopener noreferrer"
+      >
+      <img src={viteLogo} alt="Vite logo" />{" "}
+      </a>
+      <a
+      href="https://www.netlify.com/for/web-applications/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >
+      <img src={netlifyLogo} alt="Netlify logo" />{" "}
+      </a>
+      </div>
+      </p>
+      </>
+      
+      <>
+      <h2>
+      Photo Collection{" "}
+      <a
+      className="link-grade"
+      href="https://affinity-collection.netlify.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >
+      🔗
+      </a>
+      </h2>
+      
+      <p className="mx-4">
+      React Application designed for users to add photos or images in a
+      grid format and create image/photo albums. Useful for creating
+      moodboards and organizing vibes.
+      <br />
+      Created With:{" "}
+      <div className="ml-8  items-center w-40 flex space-x-3">
+      <a
+      href="https://react.dev "
+      target="_blank"
+      rel="noopener noreferrer"
+      >
+      <img src={reactLogo} alt="React logo" />{" "}
+      </a>
+      <a
+      href="https://javascript.info/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >
+      <img src={jsLogo} alt="JS logo" />{" "}
+      </a>
+      <a
+      href="https://tailwindcss.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      >
+      <img src={tailwindLogo} alt="Tailwind logo" />
+      </a>
+      <a
+      href="https://vitejs.dev/guide"
+      target="_blank"
+      rel="noopener noreferrer"
+      >
+      <img src={viteLogo} alt="Vite logo" />{" "}
+      </a>
+      <a
+      href="https://www.netlify.com/for/web-applications/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >
+      <img src={netlifyLogo} alt="Netlify logo" />{" "}
+      </a>
+      </div>
+      </p>
+      </>
+      <>
+      <h2>
+      Portfolio{" "}
+      <a
+      className="link-grade"
+      href="https://portfolio-psx.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >
+      🔗
+      </a>
+      </h2>
+      <p className="mx-4">
+      You're looking at it right here. Single Page Application to show
+      potential employers what I have done and tell them a little bit
+      about me. I spent a lot of time figuring out ideal styling and
+      learning how to make a site look aesthetically pleasing. Went
+      through many stages of designing.
+      <br />
+      Created With:{" "}
+      <div className="ml-8  items-center w-40 flex space-x-3">
+      <a
+      href="https://react.dev "
+      target="_blank"
+      rel="noopener noreferrer"
+      >
+      <img src={reactLogo} alt="React logo" />{" "}
+      </a>
+      <a
+      href="https://www.typescriptlang.org/docs/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >
+      <img src={tsLogo} alt="TS logo" />{" "}
+      </a>
+      <a
+      href="https://tailwindcss.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      >
+      <img src={tailwindLogo} alt="Tailwind logo" />
+      </a>
+      <a
+      href="https://vitejs.dev/guide"
+      target="_blank"
+      rel="noopener noreferrer"
+      >
+      <img src={viteLogo} alt="Vite logo" />{" "}
+      </a>
+      <a
+      href="https://vercel.com/docs"
+      target="_blank"
+      rel="noopener noreferrer"
+      >
+      <img src={vercelLogo} alt="Vercel logo" />{" "}
+      </a>
+      </div>
+      </p>
+      </>
+      <>
+      <h2>
+      Effortless Attire (Academic){" "}
+      <a
+      className="link-grade"
+      href="https://doomsuccs.github.io/Team-1/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >
+      🔗
+      </a>
+      </h2>
+      <p className="mx-4">
+      Webpage built during my Intro to Software Engineering course. Acts
+      a functioning clothing store for a made up brand that sells
+      University of Delaware apparel. Worked in a team of 4 people, with
+      most of my time dedicated to completing the testing.
+      <br />
+      Created With:{" "}
+      <div className="ml-8  items-center w-40 flex space-x-3">
+      <a
+      href="https://react.dev "
+      target="_blank"
+      rel="noopener noreferrer"
+      >
+      <img src={reactLogo} alt="React logo" />{" "}
+      </a>
+      <a
+      href="https://www.typescriptlang.org/docs/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >
+      <img src={tsLogo} alt="TS logo" />{" "}
+      </a>
+      <a
+      href="https://devdocs.io/css/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >
+      <img src={cssLogo} alt="CSS logo" />
+      </a>
+      <a
+      href="https://create-react-app.dev/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >
+      <img src={craLogo} alt="CRA logo" />{" "}
+      </a>
+      <a
+      href="https://vercel.com/docs"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="invisible"
+      >
+      <img src={vercelLogo} alt="Vercel logo" />{" "}
+      </a>
+      </div>
+      </p>
+      </>
+      <h2>Shell Project (Academic)</h2>
+      <p className="mx-4">
+      Custom Shell Project created for Operating Systems Course. Was
+      broken down into paheses during the course, with the first phase
+      focusing on getting the shell running, creating the built-in
+      commands for it, and allowing arguments to be passed into the shell.
+      The 2nd phase was focused on more advanced features, such as giving
+      the shell the ability to run scripts, and creating an accumulater
+      function and environment variables.
+      <br />
+      Created With:{" "}
+      <div className="ml-8  items-center w-40 flex space-x-3">
+      <a
+      href="https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html"
+      target="_blank"
+      rel="noopener noreferrer"
+      >
+      <img src={cLogo} alt="C logo" />{" "}
+      </a>
+      <a
+      href="https://www.gnu.org/software/bash/manual/bash.html"
+      target="_blank"
+      rel="noopener noreferrer"
+      >
+      <img src={bashLogo} alt="Bash logo" />{" "}
+      </a>
+      <a
+      href="https://www.vim.org/docs.php"
+      target="_blank"
+      rel="noopener noreferrer"
+      >
+      <img src={vimLogo} alt="Vim logo" />
+      </a>
+      <a
+      href="https://vercel.com/docs"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="invisible"
+      >
+      <img src={vercelLogo} alt="Vercel logo" />{" "}
+      </a>
+      <a
+      href="https://vercel.com/docs"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="invisible"
+      >
+      <img src={vercelLogo} alt="Vercel logo" />{" "}
+      </a>
+      </div>
+      </p>
+      </div>
+      </div>
+    */}
     </>
   );
 }

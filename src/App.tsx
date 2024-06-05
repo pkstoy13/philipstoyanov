@@ -1,4 +1,4 @@
-import { Intro, Education, Projects, Skills, Contact } from "./components";
+import { Intro, Education, Projects, /*Skills,*/ Contact } from "./components";
 //import { Education } from "components/Education";
 
 export function App() {
@@ -8,7 +8,7 @@ export function App() {
         <Intro />
         <Education />
         <Projects />
-        <Skills />
+        {/*<Skills />*/}
         <Contact />
       </div>
     </>
