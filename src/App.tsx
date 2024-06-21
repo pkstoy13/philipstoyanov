@@ -1,4 +1,11 @@
-import { Intro, Education, Projects, /*Skills,*/ Contact } from "./components";
+import {
+  Intro,
+  Education,
+  Projects,
+  /*Skills,*/
+  Contact,
+} from "./components";
+import EmailForm from "./components/EmailForm";
 //import { Education } from "components/Education";
 
 export function App() {
@@ -10,6 +17,7 @@ export function App() {
         <Projects />
         {/*<Skills />*/}
         <Contact />
+        <EmailForm />
       </div>
     </>
   );

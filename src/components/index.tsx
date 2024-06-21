@@ -5,3 +5,4 @@ export * from "./Education";
 export * from "./Projects";
 export * from "./Skills";
 export * from "./Contact";
+export * from "./EmailForm";
