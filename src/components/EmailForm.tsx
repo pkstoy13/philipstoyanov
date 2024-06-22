@@ -2,11 +2,6 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 
-import Form from "react-bootstrap/Form";
-import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
-import Row from "react-bootstrap/Row";
-
 interface EmailFormProps {}
 
 const EmailForm: React.FC<EmailFormProps> = () => {
@@ -43,41 +38,44 @@ const EmailForm: React.FC<EmailFormProps> = () => {
 
   return (
     <div>
-      <form onSubmit={sendEmail}>
-        <Form className="bg-primary text-black">
-          <Form.Group
-            className="mb-3  flex items-center justify-around "
-            controlId="exampleForm.ControlInput1"
-          >
-            <label htmlFor="name">Name:</label>
+      <div className="flex flex-col items-center justify-center mt-8">
+        <h1 className="border-white border-b-2 mb-6 mx-8 w-96">Contact Me</h1>
+        <form onSubmit={sendEmail}>
+          <div>
             <input
               type="text"
               id="name"
               value={name}
               onChange={(e) => setName(e.target.value)}
+              placeholder="Enter Name"
+              className="contact"
             />
-          </Form.Group>
+          </div>
           <div>
-            <label htmlFor="email">Email:</label>
             <input
               type="email"
               id="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
+              placeholder="Enter Email"
+              className="contact"
             />
           </div>
           <div>
-            <label htmlFor="message">Message:</label>
             <textarea
               id="message"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
+              placeholder="Enter Message"
+              className="contact"
             ></textarea>
           </div>
-          <button type="submit">Send Email</button>
-        </Form>
-      </form>
-      {feedback && <p>{feedback}</p>}
+          <button type="submit" className="bg-red-300 p-2 mb-8 text-black">
+            Send Email
+          </button>
+        </form>
+        {feedback && <p>{feedback}</p>}
+      </div>
     </div>
   );
 };

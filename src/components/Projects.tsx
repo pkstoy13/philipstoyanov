@@ -19,15 +19,15 @@ import icLogo from "../assets/Photo Collection ss.png";
 export function Projects() {
   return (
     <>
+      <h1 className="border-white border-b-2 mb-2 w-96 mx-8">Projects</h1>
       <div className="flex flex-wrap mx-10 justify-center items-center space-x-10">
-        <h1 className="border-white border-b-2 mb-2 w-full mx-8">Projects</h1>
-        <div className="project card lg:card-side bg-base-100">
+        <div className="project card lg:card-side bg-base-100 hover:cursor-pointer">
           <figure>
-            <img src={ttLogo} alt="Album" />
+            <img src={ttLogo} className="" alt="Album" />
           </figure>
           <div className="card-body">
             <div className="card-title text-3xl">Time Titan</div>
-            <p className="hidden md:block">
+            <p className="hidden">
               React Application that allows the user to set timers and keep
               track of how long they work on tasks. Utilizes state and other
               React Hooks to correctly keep track of time. Comes with Report
@@ -37,13 +37,13 @@ export function Projects() {
             </p>
           </div>
         </div>
-        <div className="project card lg:card-side bg-base-100">
+        <div className="project card lg:card-side bg-base-100 hover:cursor-pointer">
           <figure>
             <img className="h-auto" src={bsLogo} alt="Album" />
           </figure>
           <div className="card-body">
             <div className="card-title text-3xl">Matrix Shell</div>
-            <p className="hidden md:block">
+            <p className="hidden">
               Custom Shell Project created for Operating Systems Course. Was
               broken down into phases during the course, with the first phase
               focusing on getting the shell running, creating the built-in
@@ -54,13 +54,13 @@ export function Projects() {
             </p>
           </div>
         </div>
-        <div className="project card lg:card-side bg-base-100">
+        <div className="project card lg:card-side bg-base-100 hover:cursor-pointer">
           <figure>
             <img src={eaLogo} alt="Album" />
           </figure>
           <div className="card-body">
             <div className="card-title text-3xl">Effortless Attire</div>
-            <p className="hidden md:block">
+            <p className="hidden">
               Webpage built during my Intro to Software Engineering course. Acts
               a functioning clothing store for a made up brand that sells
               University of Delaware apparel. Worked in a team of 4 people, with
@@ -68,13 +68,13 @@ export function Projects() {
             </p>
           </div>
         </div>
-        <div className="project card lg:card-side bg-base-100 mt-8">
+        <div className="project card lg:card-side bg-base-100 mt-8 hover:cursor-pointer">
           <figure>
             <img src={pxLogo} alt="Album" />
           </figure>
           <div className="card-body">
             <div className="card-title text-3xl">Portfolio X</div>
-            <p className="hidden md:block">
+            <p className="hidden">
               You're looking at it right here. Single Page Application to show
               potential employers what I have done and tell them a little bit
               about me. I spent a lot of time figuring out ideal styling and
@@ -83,13 +83,13 @@ export function Projects() {
             </p>
           </div>
         </div>
-        <div className="project card lg:card-side bg-base-100 mt-8">
+        <div className="project card lg:card-side bg-base-100 mt-8 hover:cursor-pointer">
           <figure>
             <img src={icLogo} alt="Album" />
           </figure>
           <div className="card-body">
             <div className="card-title text-3xl">Image Collection</div>
-            <p className="hidden md:block">
+            <p className="hidden">
               React Application designed for users to add photos or images in a
               grid format and create image/photo albums. Useful for creating
               moodboards and organizing vibes. Currently unfinished.

@@ -27,6 +27,9 @@
   .project {
     @apply w-[30%]  p-2 rounded-lg  bg-indigo-600  shadow-xl hover:shadow-xl hover:shadow-indigo-500 duration-500 hover:ease-in;
   }
+  .contact {
+    @apply p-2 mb-2 rounded-xl text-black w-96;
+  }
 }
 
 @layer utilities {
