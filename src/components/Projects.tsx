@@ -15,86 +15,78 @@ import eaLogo from "../assets/effortless attire ss.png";
 import bsLogo from "../assets/matrix shell.png";
 import pxLogo from "../assets/portfolio ss.png";
 import icLogo from "../assets/Photo Collection ss.png";
+import qMark from "../assets/q mark.jpg";
 
 export function Projects() {
   return (
     <>
-      <h1 className="border-white border-b-2 mb-2 w-96 mx-8">Projects</h1>
-      <div className="flex flex-wrap mx-10 justify-center items-center space-x-10">
-        <div className="project card lg:card-side bg-base-100 hover:cursor-pointer">
-          <figure>
-            <img src={ttLogo} className="" alt="Album" />
-          </figure>
-          <div className="card-body">
-            <div className="card-title text-3xl">Time Titan</div>
-            <p className="hidden">
-              React Application that allows the user to set timers and keep
-              track of how long they work on tasks. Utilizes state and other
-              React Hooks to correctly keep track of time. Comes with Report
-              Page and Sign in so that users can come back and see their
-              previous times. Has color coding system as well to help users sort
-              out the functions of their timers
-            </p>
-          </div>
+      <h1 className="flex cursor-default border-white border-b-2 mb-2 mx-20 lg:mx-32">
+        Projects
+      </h1>
+      <div className="grid grid-flow-row md:grid-flow-col md:gap-8 md:grid-rows-2 mx-20 lg:mx-32">
+        <div className="project">
+          <img src={ttLogo} className="hidden lg:block" alt="Album" />
+
+          <p className=" text-3xl">Time Titan</p>
+          <p className="hidden">
+            React Application that allows the user to set timers and keep track
+            of how long they work on tasks. Utilizes state and other React Hooks
+            to correctly keep track of time. Comes with Report Page and Sign in
+            so that users can come back and see their previous times. Has color
+            coding system as well to help users sort out the functions of their
+            timers
+          </p>
         </div>
-        <div className="project card lg:card-side bg-base-100 hover:cursor-pointer">
-          <figure>
-            <img className="h-auto" src={bsLogo} alt="Album" />
-          </figure>
-          <div className="card-body">
-            <div className="card-title text-3xl">Matrix Shell</div>
-            <p className="hidden">
-              Custom Shell Project created for Operating Systems Course. Was
-              broken down into phases during the course, with the first phase
-              focusing on getting the shell running, creating the built-in
-              commands for it, and allowing arguments to be passed into the
-              shell. The 2nd phase was focused on more advanced features, such
-              as giving the shell the ability to run scripts, and creating an
-              accumulater function and environment variables.
-            </p>
-          </div>
+        <div className="project">
+          <img className="hidden lg:block" src={bsLogo} alt="Album" />
+
+          <div className=" text-3xl">Matrix Shell</div>
+          <p className="hidden">
+            Custom Shell Project created for Operating Systems Course. Was
+            broken down into phases during the course, with the first phase
+            focusing on getting the shell running, creating the built-in
+            commands for it, and allowing arguments to be passed into the shell.
+            The 2nd phase was focused on more advanced features, such as giving
+            the shell the ability to run scripts, and creating an accumulater
+            function and environment variables.
+          </p>
         </div>
-        <div className="project card lg:card-side bg-base-100 hover:cursor-pointer">
-          <figure>
-            <img src={eaLogo} alt="Album" />
-          </figure>
-          <div className="card-body">
-            <div className="card-title text-3xl">Effortless Attire</div>
-            <p className="hidden">
-              Webpage built during my Intro to Software Engineering course. Acts
-              a functioning clothing store for a made up brand that sells
-              University of Delaware apparel. Worked in a team of 4 people, with
-              most of my time dedicated to completing the testing.
-            </p>
-          </div>
+        <div className="project">
+          <img src={eaLogo} className="hidden lg:block" alt="Album" />
+          <div className="text-3xl">Effortless Attire</div>
+          <p className="hidden">
+            Webpage built during my Intro to Software Engineering course. Acts a
+            functioning clothing store for a made up brand that sells University
+            of Delaware apparel. Worked in a team of 4 people, with most of my
+            time dedicated to completing the testing.
+          </p>
         </div>
-        <div className="project card lg:card-side bg-base-100 mt-8 hover:cursor-pointer">
-          <figure>
-            <img src={pxLogo} alt="Album" />
-          </figure>
-          <div className="card-body">
-            <div className="card-title text-3xl">Portfolio X</div>
-            <p className="hidden">
-              You're looking at it right here. Single Page Application to show
-              potential employers what I have done and tell them a little bit
-              about me. I spent a lot of time figuring out ideal styling and
-              learning how to make a site look aesthetically pleasing. Went
-              through many stages of designing.
-            </p>
-          </div>
+        <div className="project">
+          <img src={pxLogo} className="hidden lg:block" alt="Album" />
+
+          <div className="text-3xl">Portfolio X</div>
+          <p className="hidden">
+            You're looking at it right here. Single Page Application to show
+            potential employers what I have done and tell them a little bit
+            about me. I spent a lot of time figuring out ideal styling and
+            learning how to make a site look aesthetically pleasing. Went
+            through many stages of designing.
+          </p>
         </div>
-        <div className="project card lg:card-side bg-base-100 mt-8 hover:cursor-pointer">
-          <figure>
-            <img src={icLogo} alt="Album" />
-          </figure>
-          <div className="card-body">
-            <div className="card-title text-3xl">Image Collection</div>
-            <p className="hidden">
-              React Application designed for users to add photos or images in a
-              grid format and create image/photo albums. Useful for creating
-              moodboards and organizing vibes. Currently unfinished.
-            </p>
-          </div>
+        <div className="project">
+          <img src={icLogo} className="hidden lg:block" alt="Album" />
+
+          <div className="text-3xl">Image Collection</div>
+          <p className="hidden">
+            React Application designed for users to add photos or images in a
+            grid format and create image/photo albums. Useful for creating
+            moodboards and organizing vibes. Currently unfinished.
+          </p>
+        </div>
+        <div className="project">
+          <img src={qMark} className="hidden lg:block" alt="Album" />
+
+          <div className="text-3xl">{"<name redacted>"}</div>
         </div>
       </div>
       {/*

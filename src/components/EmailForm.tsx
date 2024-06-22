@@ -39,7 +39,9 @@ const EmailForm: React.FC<EmailFormProps> = () => {
   return (
     <div>
       <div className="flex flex-col items-center justify-center mt-8">
-        <h1 className="border-white border-b-2 mb-6 mx-8 w-96">Contact Me</h1>
+        <h1 className="border-white cursor-default border-b-2 mb-6 mx-8 w-96">
+          Contact Me
+        </h1>
         <form onSubmit={sendEmail}>
           <div>
             <input
