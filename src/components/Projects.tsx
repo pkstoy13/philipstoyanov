@@ -10,9 +10,9 @@ import vercelLogo from "../assets/vercel.svg";
 import bashLogo from "../assets/bash-1.svg";
 import cLogo from "../assets/c-1.svg";
 import vimLogo from "../assets/vim.svg";*/
-import ttLogo from "../assets/time titan ss.png";
+import ttLogo from "../assets/time titan png.png";
 import eaLogo from "../assets/effortless attire ss.png";
-import bsLogo from "../assets/matrix shell.png";
+import bsLogo from "../assets/matrix shell art.png";
 import pxLogo from "../assets/portfolio ss.png";
 import icLogo from "../assets/Photo Collection ss.png";
 import qMark from "../assets/q mark.jpg";
@@ -20,7 +20,7 @@ import qMark from "../assets/q mark.jpg";
 export function Projects() {
   return (
     <>
-      <h1 className="flex cursor-default border-white border-b-2 mb-2 mx-20 lg:mx-32">
+      <h1 className="flex cursor-default border-white border-b-2 mb-2 mt-4 mx-20 lg:mx-32">
         Projects
       </h1>
       <div className="grid grid-flow-row md:grid-flow-col md:gap-8 md:grid-rows-2 mx-20 lg:mx-32">
