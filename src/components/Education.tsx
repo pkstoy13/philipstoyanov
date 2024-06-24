@@ -6,16 +6,19 @@ export function Education() {
         Education
       </h1>
       <div className="pl-1 pr-2  mx-20 lg:mx-32 project hover:cursor-default">
-        <div className="flex justify-between ">
+        <div className="flex text-lg justify-between ">
           <p>University of Delaware </p>
           <p>2021-2025</p>
         </div>
-        <div className="flex justify-between ">
+        <div className="flex text-lg justify-between ">
           <p>Major: Computer Science (BS)</p>
           <p>GPA: 3.51</p>
         </div>
         <p>Minor: Integrated Design</p>
-        <p>Concentration: Software Engineering</p>
+        <p className="text-sm italic">
+          Courses: Secure Software Design, Parallel Computing, Software
+          Engineering, Operating Systems, Algorithms
+        </p>
       </div>
     </>
   );

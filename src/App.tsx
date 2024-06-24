@@ -2,6 +2,7 @@ import {
   Intro,
   Education,
   Projects,
+  Albums,
   /*Skills,
   Contact,*/
 } from "./components";
@@ -17,6 +18,7 @@ export function App() {
         <Projects />
         {/*<Skills />*/}
         {/*<Contact />*/}
+        <Albums />
         <EmailForm />
       </div>
     </>
