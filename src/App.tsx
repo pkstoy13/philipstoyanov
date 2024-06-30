@@ -1,13 +1,4 @@
-import {
-  Intro,
-  Education,
-  Projects,
-  Albums,
-  /*Skills,
-  Contact,*/
-} from "./components";
-import EmailForm from "./components/EmailForm";
-//import { Education } from "components/Education";
+import { Intro, Education, Projects, Albums, EmailForm } from "./components";
 
 export function App() {
   return (
@@ -16,8 +7,6 @@ export function App() {
         <Intro />
         <Education />
         <Projects />
-        {/*<Skills />*/}
-        {/*<Contact />*/}
         <Albums />
         <EmailForm />
       </div>

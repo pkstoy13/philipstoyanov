@@ -4,7 +4,7 @@ import emailjs from "@emailjs/browser";
 
 interface EmailFormProps {}
 
-const EmailForm: React.FC<EmailFormProps> = () => {
+export const EmailForm: React.FC<EmailFormProps> = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -81,5 +81,3 @@ const EmailForm: React.FC<EmailFormProps> = () => {
     </div>
   );
 };
-
-export default EmailForm;
