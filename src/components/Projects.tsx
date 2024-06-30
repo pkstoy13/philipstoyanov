@@ -1,20 +1,8 @@
-/*import reactLogo from "../assets/react-2.svg";
-import tailwindLogo from "../assets/tailwind-css-2.svg";
-import cssLogo from "../assets/css-3.svg";
-import viteLogo from "../assets/vitejs.svg";
-import craLogo from "../assets/create-react-app.svg";
-import netlifyLogo from "../assets/netlify.svg";
-import jsLogo from "../assets/logo-javascript.svg";
-import tsLogo from "../assets/typescript.svg";
-import vercelLogo from "../assets/vercel.svg";
-import bashLogo from "../assets/bash-1.svg";
-import cLogo from "../assets/c-1.svg";
-import vimLogo from "../assets/vim.svg";*/
-import ttLogo from "../assets/time titan svg.svg";
-import eaLogo from "../assets/ea png.png";
+import ttLogo from "../assets/time titan w gradient.png";
+import eaLogo from "../assets/reworked effortless logo.png";
 import bsLogo from "../assets/matrix shell art.png";
 import pxLogo from "../assets/portfolio x png.png";
-import icLogo from "../assets/blue 3d rectangle.svg";
+import icLogo from "../assets/photo collection logo.png";
 import qMark from "../assets/qmark png.png";
 
 export function Projects() {
