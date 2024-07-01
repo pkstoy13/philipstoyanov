@@ -32,11 +32,23 @@ export function Igor() {
           <div className="flex flex-col">
             <h2 className="inline">Igor - Tyler, The Creator</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Reiciendis, veniam! Sit voluptate sequi nisi recusandae quibusdam
-              dolorum odit quis reiciendis quaerat qui saepe aspernatur in, quod
-              perspiciatis ducimus quia hic.
+              This is such a perfect album. The themes about love and
+              relationships presented throughout are really felt. I first
+              listened to this album my Freshmen Spring semester, and it was my
+              first time really listening to an album by Tyler, the Creator. At
+              that time, mentally I was not in a great place. My anxiety was
+              worse than ever, feeling so much pressure being at college, with
+              classes, and friendships, and just everything. The story that
+              unfolds throughout the album is honestly amazing. Starting off
+              being excited and wanting to be in a relationship with someone,
+              but then once you're there, it's not how you imagined. In the end
+              you realize, maybe it wasn't meant to be. Honestly, it's
+              relatable, and the production is extremely unique and beautiful.
             </p>
+            <div className="italic ">
+              <p>Release Year: 2019</p>
+              <p>Favorite Track: GONE GONE / THANK YOU</p>
+            </div>
           </div>
         </div>
         <form method="dialog" className="modal-backdrop">
@@ -71,11 +83,21 @@ export function ALLA() {
           <div className="flex flex-col">
             <h2 className="inline">AT.LONG.LAST.A$AP - A$AP Rocky</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Reiciendis, veniam! Sit voluptate sequi nisi recusandae quibusdam
-              dolorum odit quis reiciendis quaerat qui saepe aspernatur in, quod
-              perspiciatis ducimus quia hic.
+              My all-time favorite album. It just sounds so good. The tracks on
+              this record are so different from one another and Rocky is at his
+              best on so many levels. There's not really much else to say.
+              There's a couple of tracks on the album that are a little
+              lackluster, but other than that, it's phenomenal. It's definitely
+              my most listened to album I think. It really doesn't get old. The
+              production is amazing, and Rocky's bars and charisma are on full
+              display. You can definitely hear the inspiration Rocky got from
+              Kanye West on here but I think he elevates it and makes it his
+              own.
             </p>
+            <div className="italic ">
+              <p>Release Year: 2015</p>
+              <p>Favorite Track: Jukebox Joints</p>
+            </div>
           </div>
         </div>
         <form method="dialog" className="modal-backdrop">
@@ -110,11 +132,18 @@ export function Rodeo() {
           <div className="flex flex-col">
             <h2 className="inline">Rodeo - Travis Scott</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Reiciendis, veniam! Sit voluptate sequi nisi recusandae quibusdam
-              dolorum odit quis reiciendis quaerat qui saepe aspernatur in, quod
-              perspiciatis ducimus quia hic.
+              One of the best debut records ever, with too many timeless songs
+              to count. The production is beautiful. There's loud, banger-type
+              songs, and there's more calm, mellow pieces. This record does an
+              excellent job of introducing you to the world of Travis Scott.
+              This is one of the first albums that I listened to that really
+              made me appreciate music, and it's one of the earliest ones that I
+              still listen to today. I will forever cherish this record.
             </p>
+            <div className="italic ">
+              <p>Release Year: 2015</p>
+              <p>Favorite Track: Impossible</p>
+            </div>
           </div>
         </div>
         <form method="dialog" className="modal-backdrop">
@@ -149,11 +178,21 @@ export function Into() {
           <div className="flex flex-col">
             <h2 className="inline">Into - Sonder</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Reiciendis, veniam! Sit voluptate sequi nisi recusandae quibusdam
-              dolorum odit quis reiciendis quaerat qui saepe aspernatur in, quod
-              perspiciatis ducimus quia hic.
+              Such a nocturnal and vibey piece of work. At only 7 songs, Into is
+              more like an EP, but it really feels like an album. Brent Faiyaz,
+              the lead singer of Sonder, is at his absolute best whenever he
+              works with the rest of Sonder. The producers know the exact
+              production to make his voice standout, and on here, it's literally
+              perfect. This record really emodies that late-at-night feeling
+              when you're thinking about life. This is another album I first
+              listened to my Freshman Spring semester I think, and it really
+              helped me get through that time. It's crazy how certain songs and
+              albums can bring you back to different points in your life.
             </p>
+            <div className="italic ">
+              <p>Release Year: 2017</p>
+              <p>Favorite Track: Searchin</p>
+            </div>
           </div>
         </div>
         <form method="dialog" className="modal-backdrop">
@@ -192,6 +231,8 @@ export function CFM() {
               dolorum odit quis reiciendis quaerat qui saepe aspernatur in, quod
               perspiciatis ducimus quia hic.
             </p>
+            <p>Release Year: 2018</p>
+            <p>Favorite Track: PROM / KING</p>
           </div>
         </div>
         <form method="dialog" className="modal-backdrop">
@@ -231,6 +272,8 @@ export function Blonde() {
               dolorum odit quis reiciendis quaerat qui saepe aspernatur in, quod
               perspiciatis ducimus quia hic.
             </p>
+            <p>Release Year: 2016</p>
+            <p>Favorite Track: White Ferrari</p>
           </div>
         </div>
         <form method="dialog" className="modal-backdrop">
@@ -269,6 +312,8 @@ export function DAMN() {
               dolorum odit quis reiciendis quaerat qui saepe aspernatur in, quod
               perspiciatis ducimus quia hic.
             </p>
+            <p>Release Year: 2017</p>
+            <p>Favorite Track: PRIDE.</p>
           </div>
         </div>
         <form method="dialog" className="modal-backdrop">
@@ -307,6 +352,8 @@ export function LoveDeluxe() {
               dolorum odit quis reiciendis quaerat qui saepe aspernatur in, quod
               perspiciatis ducimus quia hic.
             </p>
+            <p>Release Year: 1992</p>
+            <p>Favorite Track: Pearls</p>
           </div>
         </div>
         <form method="dialog" className="modal-backdrop">
@@ -345,6 +392,8 @@ export function BackstageRaver() {
               dolorum odit quis reiciendis quaerat qui saepe aspernatur in, quod
               perspiciatis ducimus quia hic.
             </p>
+            <p>Release Year: 2024</p>
+            <p>Favorite Track: shangri las death song</p>
           </div>
         </div>
         <form method="dialog" className="modal-backdrop">
