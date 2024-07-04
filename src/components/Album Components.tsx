@@ -184,10 +184,12 @@ export function Into() {
               works with the rest of Sonder. The producers know the exact
               production to make his voice standout, and on here, it's literally
               perfect. This record really emodies that late-at-night feeling
-              when you're thinking about life. This is another album I first
-              listened to my Freshman Spring semester I think, and it really
-              helped me get through that time. It's crazy how certain songs and
-              albums can bring you back to different points in your life.
+              when you're reminiscing on life and thinking about everything
+              that's changed since you last thought. This is another album I
+              first listened to my Freshman Spring semester I think, and it
+              really helped me get through that time. It's crazy how certain
+              songs and albums can bring you back to different points in your
+              life.
             </p>
             <div className="italic ">
               <p>Release Year: 2017</p>
@@ -226,13 +228,24 @@ export function CFM() {
           <div className="flex flex-col">
             <h2 className="inline">Care For Me - Saba</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Reiciendis, veniam! Sit voluptate sequi nisi recusandae quibusdam
-              dolorum odit quis reiciendis quaerat qui saepe aspernatur in, quod
-              perspiciatis ducimus quia hic.
+              This album is very special to me. Another artist and album that I
+              first listened to my Freshmen year. The Jazz-like production on
+              this album is very unique and distinct to anything else I've heard
+              before. Saba's storytelling on this record is beautiful as he goes
+              through his upbringing and his rise as an artist. I find this
+              record and its themes extremely relatable, and that's part of the
+              reason I love it so much. On top of that, this record has some of
+              the saddest and heart-breaking moments I've ever heard on a
+              record. Especially on the penultimate track, PROM / KING, which
+              detail's Saba's friendship with his cousin Walter, as they find
+              their way as kids and later on in the music industry. I won't
+              spoil the ending, but it's haunting and I would recommend anyone
+              to at least listen to that one song.{" "}
             </p>
-            <p>Release Year: 2018</p>
-            <p>Favorite Track: PROM / KING</p>
+            <div className="italic ">
+              <p>Release Year: 2018</p>
+              <p>Favorite Track: PROM / KING</p>
+            </div>
           </div>
         </div>
         <form method="dialog" className="modal-backdrop">
@@ -267,13 +280,21 @@ export function Blonde() {
           <div className="flex flex-col">
             <h2 className="inline">Blonde - Frank Ocean</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Reiciendis, veniam! Sit voluptate sequi nisi recusandae quibusdam
-              dolorum odit quis reiciendis quaerat qui saepe aspernatur in, quod
-              perspiciatis ducimus quia hic.
+              Even now, Blonde is already regarded as a classic to many, and for
+              good reason. It is an amazing album from start to finish. This
+              record makes you feel things. There's so many classic songs on
+              this record, and Frank's voice is literally majestic. Nights, Ivy,
+              Pink + White, Self Control, Nikes, and White Ferrari are all songs
+              I think I will probably bump for the rest of my life. This album
+              is so good that Frank doesn't have to drop any new music because
+              his legacy and impact is solidified off this record alone. No one
+              can replicate what Frank Ocean did on this record, even though
+              artists have been trying to ever since this masterpiece dropped.
             </p>
-            <p>Release Year: 2016</p>
-            <p>Favorite Track: White Ferrari</p>
+            <div className="italic ">
+              <p>Release Year: 2016</p>
+              <p>Favorite Track: White Ferrari</p>
+            </div>
           </div>
         </div>
         <form method="dialog" className="modal-backdrop">
@@ -307,13 +328,21 @@ export function DAMN() {
           <div className="flex flex-col">
             <h2 className="inline">DAMN - Kendrick Lamar</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Reiciendis, veniam! Sit voluptate sequi nisi recusandae quibusdam
-              dolorum odit quis reiciendis quaerat qui saepe aspernatur in, quod
-              perspiciatis ducimus quia hic.
+              While DAMN. is objectively not Kendrick Lamar's best album, I
+              think it might be my favorite. I like basically everything about
+              this record. The cover art, the song names and the themes
+              throughout are executed so well. Even while Kendrick was at his
+              most successful point in the music industry, he still dropped an
+              album that has a lot of meaning, deep messages, and masterful
+              storytelling. The album flows very well and is not too long or too
+              short. Each track is very different, always keeping the listener
+              guessing and engaged. On top of that, this is another album that
+              makes you feel a lot of things and has an incredible vibe.
             </p>
-            <p>Release Year: 2017</p>
-            <p>Favorite Track: PRIDE.</p>
+            <div className="italic ">
+              <p>Release Year: 2017</p>
+              <p>Favorite Track: PRIDE.</p>
+            </div>
           </div>
         </div>
         <form method="dialog" className="modal-backdrop">
@@ -347,13 +376,17 @@ export function LoveDeluxe() {
           <div className="flex flex-col">
             <h2 className="inline">Love Deluxe - Sade</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Reiciendis, veniam! Sit voluptate sequi nisi recusandae quibusdam
-              dolorum odit quis reiciendis quaerat qui saepe aspernatur in, quod
-              perspiciatis ducimus quia hic.
+              This is a classic record. Sade's voice is straight up angelic.
+              Honestly, some of the best singing I've ever heard comes from this
+              album. Whenever I listen to a song off this record, my mind clears
+              and I feel at peace. It's crazy how calming and smooth this record
+              is. Almost all of Sade's records could be considered their best,
+              but to me, this one stands out the most.
             </p>
-            <p>Release Year: 1992</p>
-            <p>Favorite Track: Pearls</p>
+            <div className="italic ">
+              <p>Release Year: 1992</p>
+              <p>Favorite Track: Pearls</p>
+            </div>
           </div>
         </div>
         <form method="dialog" className="modal-backdrop">
@@ -387,13 +420,23 @@ export function BackstageRaver() {
           <div className="flex flex-col">
             <h2 className="inline">Backstage Raver - Joanne Robertson</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Reiciendis, veniam! Sit voluptate sequi nisi recusandae quibusdam
-              dolorum odit quis reiciendis quaerat qui saepe aspernatur in, quod
-              perspiciatis ducimus quia hic.
+              Every since this record came out, I have not been able to stop
+              listening to it. I love how mysterious, enigmatic, and even dark
+              it is. You don't really understand the words being sung at most
+              times, you just feel that strong, dark guitar and Joanne's
+              enchanting vocals. It makes for such an intriguing and captivating
+              listen. I've known about Dean Blunt for years now from his work
+              with A$AP Rocky, but I didn't find out about Joanne Robertson
+              until this record. Hearing her voice for the first time, I
+              instantly realized how well it fit with Dean's signature dark,
+              confusing style. The cover art had me intrigued, so I gave it a
+              listen, and I'm so glad that I did, because so far, this has been
+              my favorite album of 2024.
             </p>
-            <p>Release Year: 2024</p>
-            <p>Favorite Track: shangri las death song</p>
+            <div className="italic ">
+              <p>Release Year: 2024</p>
+              <p>Favorite Track: shangri las death song</p>
+            </div>
           </div>
         </div>
         <form method="dialog" className="modal-backdrop">

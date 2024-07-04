@@ -224,7 +224,7 @@ export function Unknown() {
       />
       <dialog id="my_modal_15" className="modal">
         <div className="modal-box cursor-default bg-indigo-700">
-          <p>TO BE R3{"}{"}E4L€|)?</p>
+          <p>t ob er e v e a l e d . . . .</p>
         </div>
         <form method="dialog" className="modal-backdrop">
           <button>close</button>

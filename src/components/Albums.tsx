@@ -13,10 +13,10 @@ import {
 export function Albums() {
   return (
     <>
-      <h1 className="cursor-default border-white border-b-2 mb-2 mt-4 mx-20 lg:mx-44">
+      <h1 className="flex cursor-default border-white border-b-2 my-4 mx-20 lg:mx-32 xl:mx-52">
         Albums
       </h1>
-      <div className="album-grid">
+      <div className="grid justify-items-center md:gap-8 md:grid-cols-3 md:grid-rows-3 mx-20 lg:mx-44">
         <Igor />
         <ALLA />
         <Rodeo />

@@ -72,7 +72,10 @@ export const EmailForm: React.FC<EmailFormProps> = () => {
               className="contact"
             ></textarea>
           </div>
-          <button type="submit" className="bg-red-300 p-2 mb-8 text-black">
+          <button
+            type="submit"
+            className="bg-red-300 rounded-xl hover:shadow-sm hover:shadow-red-200 p-2 mb-8 text-black"
+          >
             Send Email
           </button>
         </form>
