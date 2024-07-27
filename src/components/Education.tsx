@@ -4,11 +4,11 @@ import github from "../assets/github-icon-1.svg";
 export function Education() {
   return (
     <>
-      <div className="border-black border-2" />
+      <div />
       <h1 className="flex cursor-default border-white border-b-2 mt-4 mx-20 lg:mx-32 ">
         Education{" "}
         <a
-          href="https://www.linkedin.com/in/philip-stoyanov-044344229/"
+          href="https://www.linkedin.com/in/pksto/"
           target="_blank"
           rel="noopener noreferrer"
         >
