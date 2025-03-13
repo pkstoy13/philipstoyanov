@@ -1,10 +1,10 @@
 import {
   Effortless,
-  Matrix,
-  PhotoC,
+  ToDoIt,
   PortX,
   TimeTitan,
-  Unknown,
+  MakerSpace,
+  AdventureT,
 } from "./Project Components";
 
 export function Projects() {
@@ -14,12 +14,12 @@ export function Projects() {
         Projects
       </h1>
       <div className="grid grid-flow-row md:gap-8 md:grid-cols-3 md:grid-rows-2 mx-20 lg:mx-32">
+        <ToDoIt />
+        <MakerSpace />
+        <AdventureT />
         <TimeTitan />
-        <Matrix />
         <Effortless />
         <PortX />
-        <PhotoC />
-        <Unknown />
       </div>
     </>
   );

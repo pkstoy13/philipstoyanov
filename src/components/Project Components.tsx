@@ -1,8 +1,8 @@
 import ttLogo from "../assets/time titan w gradient.png";
 import eaLogo from "../assets/reworked effortless logo.png";
-import bsLogo from "../assets/matrix shell art.png";
+import tdLogo from "../assets/TDI-Flask.png";
 import pxLogo from "../assets/portfolio x png.png";
-import icLogo from "../assets/photo collection logo.png";
+import atLogo from "../assets/adventure-time.png";
 import qMark from "../assets/qmark png.png";
 
 export function TimeTitan() {
@@ -47,11 +47,11 @@ export function TimeTitan() {
   );
 }
 
-export function Matrix() {
+export function ToDoIt() {
   return (
     <div className="project">
       <img
-        src={bsLogo}
+        src={tdLogo}
         onClick={() => {
           const modal = document.getElementById(
             "my_modal_11"
@@ -62,24 +62,19 @@ export function Matrix() {
       />
       <dialog id="my_modal_11" className="modal">
         <div className="modal-box cursor-default bg-indigo-700">
-          <h2>Welcome to the Matrix</h2>
+          <h2>To-Do-It</h2>
           <a
-            href="https://time-titan.netlify.app/"
+            href="https://to-do-it-flask.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             title="Download Shell Code"
             className="text-indigo-300 underline"
           >
-            shell.zip (unfinished)
+            To-Do-It
           </a>
           <p>
-            Custom Shell Project created for Operating Systems Course. Was
-            broken down into phases during the course, with the first phase
-            focusing on getting the shell running, creating the built-in
-            commands for it, and allowing arguments to be passed into the shell.
-            The 2nd phase was focused on more advanced features, such as giving
-            the shell the ability to run scripts, and creating an accumulater
-            function and environment variables.
+            Fullstack To-Do App made with 2 different backend stacks, deployed
+            with AWS
           </p>
         </div>
         <form method="dialog" className="modal-backdrop">
@@ -171,11 +166,11 @@ export function PortX() {
   );
 }
 
-export function PhotoC() {
+export function AdventureT() {
   return (
     <div className="project">
       <img
-        src={icLogo}
+        src={atLogo}
         onClick={() => {
           const modal = document.getElementById(
             "my_modal_14"
@@ -186,7 +181,7 @@ export function PhotoC() {
       />
       <dialog id="my_modal_14" className="modal">
         <div className="modal-box cursor-default bg-indigo-700">
-          <h2>Photo Collection</h2>
+          <h2>Adventure Time</h2>
           <a
             href="https://affinity-collection.netlify.app/"
             target="_blank"
@@ -194,12 +189,11 @@ export function PhotoC() {
             title="Photo Collection"
             className="text-indigo-300 underline"
           >
-            https://affinity-collection.netlify.app/
+            Not Deployed
           </a>
           <p>
-            React Application designed for users to add photos or images in a
-            grid format and create image/photo albums. Useful for creating
-            moodboards and organizing vibes. Currently unfinished.
+            Fullstack Application designed to let users share their adventures
+            with one another. Built with Google Maps API.
           </p>
         </div>
         <form method="dialog" className="modal-backdrop">
@@ -209,7 +203,7 @@ export function PhotoC() {
     </div>
   );
 }
-export function Unknown() {
+export function MakerSpace() {
   return (
     <div className="project">
       <img
@@ -224,7 +218,7 @@ export function Unknown() {
       />
       <dialog id="my_modal_15" className="modal">
         <div className="modal-box cursor-default bg-indigo-700">
-          <p>t ob er e v e a l e d . . . .</p>
+          <p>University-scale SSO integration</p>
         </div>
         <form method="dialog" className="modal-backdrop">
           <button>close</button>
