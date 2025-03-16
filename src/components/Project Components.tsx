@@ -2,8 +2,8 @@ import ttLogo from "../assets/time titan w gradient.png";
 import eaLogo from "../assets/reworked effortless logo.png";
 import tdLogo from "../assets/TDI-Flask.png";
 import pxLogo from "../assets/portfolio x png.png";
-import atLogo from "../assets/adventure-time.png";
-import qMark from "../assets/qmark png.png";
+import atLogo from "../assets/adventure_time.png";
+import msMark from "../assets/makerspace.png";
 
 export function TimeTitan() {
   return (
@@ -182,15 +182,7 @@ export function AdventureT() {
       <dialog id="my_modal_14" className="modal">
         <div className="modal-box cursor-default bg-indigo-700">
           <h2>Adventure Time</h2>
-          <a
-            href="https://affinity-collection.netlify.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="Photo Collection"
-            className="text-indigo-300 underline"
-          >
-            Not Deployed
-          </a>
+
           <p>
             Fullstack Application designed to let users share their adventures
             with one another. Built with Google Maps API.
@@ -207,7 +199,7 @@ export function MakerSpace() {
   return (
     <div className="project">
       <img
-        src={qMark}
+        src={msMark}
         onClick={() => {
           const modal = document.getElementById(
             "my_modal_15"
@@ -218,6 +210,7 @@ export function MakerSpace() {
       />
       <dialog id="my_modal_15" className="modal">
         <div className="modal-box cursor-default bg-indigo-700">
+          <h2>MakerSpace SSO</h2>
           <p>University-scale SSO integration</p>
         </div>
         <form method="dialog" className="modal-backdrop">

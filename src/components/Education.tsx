@@ -29,7 +29,7 @@ export function Education() {
         </div>
         <div className="flex text-lg justify-between ">
           <p>Major: Computer Science (BS)</p>
-          <p>GPA: 3.51</p>
+          <p>GPA: 3.6</p>
         </div>
         <p>Minor: Integrated Design</p>
         <p className="text-sm italic">
