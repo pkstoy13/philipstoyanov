@@ -1,4 +1,4 @@
-import { Intro, Education, Projects, Albums, EmailForm } from "./components";
+import { Intro, Education, Projects, /*Albums,*/ EmailForm } from "./components";
 
 export function App() {
   return (
@@ -7,7 +7,7 @@ export function App() {
         <Intro />
         <Education />
         <Projects />
-        <Albums />
+        {/*<Albums />*/}
         <EmailForm />
       </div>
     </>
